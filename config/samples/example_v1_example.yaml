@@ -1,0 +1,8 @@
+apiVersion: example.example.com/v1
+kind: Example
+metadata:
+  name: example-sample
+spec:
+  # TODO(user): Add fields here
+  name: my-nginx
+  size: 3

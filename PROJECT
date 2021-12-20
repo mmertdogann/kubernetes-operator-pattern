@@ -1,0 +1,16 @@
+domain: example.com
+layout:
+- go.kubebuilder.io/v3
+projectName: example-operator
+repo: mmertdogann/example-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: example.com
+  group: example
+  kind: Example
+  path: mmertdogann/example-operator/api/v1
+  version: v1
+version: "3"
